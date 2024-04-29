@@ -4,7 +4,7 @@ function solution(N, stages){
     // answer = [];
     noclear = Array.from(new Array(N+1).fill(0));// 각 단계 별 도전중인 사용자
     // noclear = [];
-    fails = Array.from(new Array(N).fill(0));// 각 단계 별 도전중인 사용자
+    fails = Array.from(new Array(N).fill(0));// 각 단계 별 실패율
     //  fails = [];
     total = stages.length;
     
