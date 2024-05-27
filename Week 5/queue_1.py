@@ -6,7 +6,7 @@ def solution(progresses, speeds):
     
     
     while len(queue) > 0 :
-        # print(queue)
+        print(queue)
         for i in range(len(queue)) :
             queue[i] += speeds[i]
         
