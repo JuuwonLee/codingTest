@@ -17,6 +17,6 @@ def solution (menu, order, k):
         while i < n and i <= ((time - 1) // k):
             queue.append(order[i])
             i += 1
-        answer = max(answer,len(queue)))
+        answer = max(answer,len(queue))
     
     return answer + 1
